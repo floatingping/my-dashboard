@@ -1,0 +1,22 @@
+{
+  "name": "my-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "看板驅動的 AI agent 系統",
+  "scripts": {
+    "start": "node server/index.js",
+    "tunnel": "ngrok http 3001 --url https://unhumid-less-simona.ngrok-free.dev"
+  },
+  "dependencies": {
+    "@electric-sql/pglite": "^0.5.16",
+    "@tailwindcss/browser": "^4.3.5",
+    "croner": "^11.0.0",
+    "dompurify": "^3.4.17",
+    "express": "^5.3.0",
+    "marked": "^18.2.0",
+    "mermaid": "^12.3.0",
+    "multer": "^2.5.0",
+    "vue": "^3.5.45"
+  }
+}
